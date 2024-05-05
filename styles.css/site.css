@@ -1,0 +1,22 @@
+body{
+    background-color: chocolate;
+}
+div>.i1 {
+    background-color:darkblue;
+    width: 270px;
+    height: 100px;
+    transform: skew(20deg);
+    text-align: center;
+    margin: 25vh;
+    padding: 20px 10px;
+    border: 5px solid black;
+    
+}
+div.i1+div+div {
+    background-color:darkblue;
+    width: 293px;
+    border: 5px solid black;
+    height: 140px;
+   margin-left: 28vh;
+   margin-top: -26.5vh;
+}
