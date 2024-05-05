@@ -12,11 +12,24 @@ div>.i1 {
     border: 5px solid black;
     
 }
-div.i1+div+div {
+div.i2{
     background-color:darkblue;
     width: 293px;
     border: 5px solid black;
     height: 140px;
    margin-left: 28vh;
    margin-top: -26.5vh;
+}
+div#i3{
+    background-color: darkblue;
+    border: 5px solid black;
+    width: 45px;
+    height: 150px;
+    transform: skewY(70deg);
+    margin-left: 21.25vh;
+    margin-top: -30vh;
+}
+body>div:hover {
+    transform: rotatex(90deg)rotate(90deg);
+    transition: 10s;
 }
